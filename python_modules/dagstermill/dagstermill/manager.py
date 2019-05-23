@@ -124,6 +124,7 @@ class Manager:
         output_log_path,
         input_name_type_dict,
         output_name_type_dict,
+        log_output_path,
     ):
         check.dict_param(environment_dict, 'environment_dict')
         self.populated_by_papermill = True

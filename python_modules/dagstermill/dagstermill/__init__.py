@@ -51,6 +51,7 @@ def populate_context(dm_context_data):
         dm_context_data['output_log_path'],
         dm_context_data['input_name_type_dict'],
         dm_context_data['output_name_type_dict'],
+        dm_context_data['log_output_path'],
     )
 
 
